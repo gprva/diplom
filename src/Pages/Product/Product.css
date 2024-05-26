@@ -1,0 +1,13 @@
+.product_tit{
+    font-weight: 700;
+    color: rgb(0, 0, 0) !important;
+}
+.product_img{
+    width: 400px;
+}
+
+.product_price,
+.product_description{
+    margin: 20px 0;
+    font-size: 20px;
+}
