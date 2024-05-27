@@ -207,11 +207,14 @@ figure.effect-text-four:hover p {
 	transform: translate3d(0,0,0);
 }
 .home_btn{
+	color: black;
     width: 20%;
     background: #777676;
-    padding: 8px;
+    padding: 8px 27px;
     transition: 0.5s;
     border-radius: 20%;
+	font-size: 12px;
+	font-weight: 600;
 }
 .home_btn:hover{
     background: #919090;

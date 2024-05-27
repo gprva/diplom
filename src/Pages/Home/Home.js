@@ -42,7 +42,7 @@ function Home() {
                 <figcaption>
             <h3>Laptop</h3>
             <p>A laptop is a window to a world of limitless possibilities. Lorem ipsum, dolor sit amet consectetur adipisicing elit. At ipsum natus eveniet! Reprehenderit ab, id unde, saepe sequi fugit dicta quos, doloremque veniam similique laboriosam enim quo. Deserunt, reiciendis facilis</p>
-            <button className="home_btn">shop</button>
+            <a href="/categories/laptop" className="home_btn">shop</a>
                 </figcaption>			
             </figure>
           </div>
@@ -53,7 +53,8 @@ function Home() {
                 <figcaption>
             <h3>Smartwatches</h3>
             <p className="selling_min_txt">"Smartwatches are not just an accessory but a technological companion that combines style and functionality on your wrist."Smartwatches are style and intelligence in one device."Smartwatches are style and intelligence in one device."Smartwatches are style and intelligence in one device</p>
-            <button className="home_btn">shop</button>	
+            
+            <a href="/categories/watch	" className="home_btn">shop</a>
                 </figcaption>		
             </figure>
 
@@ -70,7 +71,7 @@ function Home() {
                 <figcaption>
             <h3>Headphones</h3>
             <p>"Headphones are a portal to the world of sound, where every note comes to life, immersing you in a musical universe. "Headphones are a portal to the world of sound, where every note comes to life, immersing you in a musical universe." "Headphones are a portal to the world of sound"</p>
-            <button className="home_btn">shop</button>
+            <a href="/categories/headphones" className="home_btn">shop</a>
                 </figcaption>			
             </figure>
           </div>
@@ -80,8 +81,9 @@ function Home() {
               <img className="home_img2" src={phone} alt=""/>
                 <figcaption>
             <h3>Phone</h3>
-            <p className="selling_min_txt">"A phone is not just a means of communication, but a key to an infinite world of possibilities that fits in your pocket.""A phone is not just a means of communication, but a key to an infinite world of possibilities that fits in your pocket.""A phone is not just a means of communication</p>
-            <button className="home_btn">shop</button>	
+            <p className="selling_min_txt">"A phone is not just a means of communication, but a key to an infinite world of possibilities that fits in your pocket.""A phone is not just a means of communication, but a key to an infinite world of possibilities that fits in your pocket.""A phone is not just a means of communication</p>	
+            
+            <a href="/categories/smartphone" className="home_btn">shop</a>
                 </figcaption>		
             </figure>
 
