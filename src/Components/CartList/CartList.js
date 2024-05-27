@@ -3,9 +3,11 @@ import { AppContext } from "../../App";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { MdDelete } from "react-icons/md";
+import { Modal, Button } from "react-bootstrap";
 
 
 export default function CartList() {
+  
 
   // this.deleteOrder = this.deleteOrder.bind(this)
 

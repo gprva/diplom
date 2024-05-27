@@ -4,7 +4,7 @@
 }
 .CategoryList a{
     display: block;
-    padding: 3px 10px;
+    padding: 12px 10px;
     transition: 0.3s;
 }
 .CategoryList a:hover{
