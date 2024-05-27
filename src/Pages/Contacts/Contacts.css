@@ -5,23 +5,37 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
-    background-color: #a2a2a2;;
+    background-color: rgb(108, 101, 198);;
     position: relative;
     margin: 100px 0 80px;
 }
 .contact_tit{
         color: #ffffff;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 72px;
         margin: 40px 0 50px;
         text-align: center;
-        padding: 12%
+        padding: 12%;
+        font-family: "Poetsen One", sans-serif;
     }
 .contact_phon{
     color: black;
     margin-bottom: 20px;
+    display: flex;
+    gap: 1%;
 }
 p span{
     font-weight: 500;
     font-size: 18px;
+    margin-top: 6px;
+}
+.Whatsapp{
+    color: rgb(0, 21, 255);
+    height: 3%;
+    width: 3%;
+}
+.contact_phon_tit{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2%;
 }

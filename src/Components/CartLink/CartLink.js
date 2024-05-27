@@ -1,9 +1,12 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import "./CartLink.css";
 import { AppContext } from "../../App";
 import { Link } from "react-router-dom";
+import { IoCart } from "react-icons/io5";
 
 export default function CartLink() {
+
+
   const { cart } = useContext(AppContext);
 
   const total = Object.values(cart).reduce((acc, num) => acc + num, 0);
@@ -11,6 +14,7 @@ export default function CartLink() {
   return (
     <div className="CartLink" >
       <Link to="/cart" className="Cart_ic">
+      <IoCart />
         <span>{total}</span>
       </Link>
     </div>

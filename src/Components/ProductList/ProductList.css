@@ -31,10 +31,7 @@
   transition: all 100ms linear;
 }
 .product a:hover {
-  color: rgb(255, 130, 151);
-}
-.ProductList span {
-  font-size: 20px;
+  color: #339;
 }
 .ProductList .text {
   max-width: 200px;

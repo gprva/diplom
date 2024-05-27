@@ -2,8 +2,16 @@ import "./CartList.css";
 import { AppContext } from "../../App";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
+import { MdDelete } from "react-icons/md";
+
 
 export default function CartList() {
+
+  // this.deleteOrder = this.deleteOrder.bind(this)
+
+  // deleteOrder(id){
+
+  // }
   const { products, cart, setCart } = useContext(AppContext);
 
   function onQuantityChange(product, qty) {
@@ -38,6 +46,8 @@ export default function CartList() {
           onChange={(event) => onQuantityChange(product, +event.target.value)} />
         <span>${(cart[product.id] * product.price).toFixed(2)}</span>
         <i className="fa-solid fa-xmark" onClick={() => onItemRemove(product)} />
+
+          <MdDelete className="delete_icon"/>
           </div>
       </div>
     ));
@@ -45,6 +55,7 @@ export default function CartList() {
   return (
     <div className="CartList">
       {output}
+      
     </div>
   )
 }

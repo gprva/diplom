@@ -1,0 +1,30 @@
+.Delivery{
+    background: #339;
+    padding: 6%;
+}
+.delivery_tit{
+    position: relative;
+    display: block;
+    font-size: 27px;
+    font-weight: 800;
+    color: #ff0;
+    width: 600px;
+    margin-bottom: 3%;
+    font-family: "Poetsen One", sans-serif;
+}
+.delivery_mains{
+flex-wrap: nowrap;
+}
+.delivery_txt{
+margin-bottom: 4%;
+color: white;
+font-weight: 600;
+}
+.delivery_txt_num{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.delivery_left{
+    width: 45%;
+}
