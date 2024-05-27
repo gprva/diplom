@@ -11,8 +11,6 @@
   gap: 20px;
 }
 .logo_img{
-width: 30%;
-}
-.logo_txt{
-  width: 70%;
+width: 100%;
+margin-left: 46%;
 }
