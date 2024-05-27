@@ -20,10 +20,10 @@ export default function Product() {
       <div>
         <img className='product_img' src={product.picture} alt={product.name} />
       </div>
-      <div>
+      <div className='product_right'>
         <h1 className="product_tit">{product.name}</h1>
-        <p className="product_price"><strong >Price:</strong> {product.price}$</p>
-        <p className='product_description'><strong>Description: </strong>{product.description}</p>
+        <p className='product_price_all'><strong className="product_price">Price:</strong> {product.price}$</p>
+        <p className='product_price_all'><strong className='product_price'>Description: </strong>{product.description}</p>
         <AddToCart product={product} />
       </div>
     </div>

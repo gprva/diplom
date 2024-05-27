@@ -1,15 +1,22 @@
 .CategoryList{
-    background: rgb(245, 245, 247);
-    padding: 10px 0;
+    background: #339;
+    padding: 13% 2%;
+
 }
 .CategoryList a{
     display: block;
     padding: 12px 10px;
     transition: 0.3s;
+    color: white;
+    font-weight: 700;
 }
 .CategoryList a:hover{
-    background: rgb(214, 214, 215);;
+    background: rgb(93 93 236);
 }
 .dropdownBtn{
     padding-bottom: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5%;
 }
