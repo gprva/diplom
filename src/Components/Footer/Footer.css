@@ -1,5 +1,13 @@
 footer {
-    background: #339;
-    padding: 100px 0;
+    background: #1f1f69;
+    padding: 50px 0;
   }
+.footer_txt{
+  font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    color: white;
 
+}
