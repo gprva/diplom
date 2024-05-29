@@ -56,3 +56,42 @@
     width: 100px;
   }
 }
+@media screen and (max-width: 990px) {
+	.container{
+		max-width: 750px;
+	}
+  .CartList .cartItem{
+    grid-template-columns:none
+  }
+  .cartItem a{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #000000;
+    margin: 3% 0;
+  }
+  .inputs span{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 23px;
+    color: #292929;
+  }
+  .CartList{
+    margin-left: 13%;
+  }
+
+}
+@media screen and (max-width: 780px) {
+	.container{
+		max-width: 510px;
+	}
+}
+@media screen and (max-width: 540px) {
+	.container{
+		max-width: 420px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.container{
+		max-width: 100%;
+	}
+}
