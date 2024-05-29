@@ -1,5 +1,6 @@
 import './Delivery.css';
 import deliveryImg from '../../img/delivery.png'
+import { Link } from 'react-router-dom';
 
 
 function Delivery() {
@@ -22,8 +23,8 @@ function Delivery() {
             <p className="delivery_tit">DELIVERY OF GOODS IS CARRIED OUT FROM 12-00 DURING THE DAY</p>
 
             <p className="delivery_txt_num">Contact phone numbers for orders:</p>
-            <p className="delivery_txt_num">+996 505 505 400</p>
-            <p className="delivery_txt_num">+996 505 505 400 </p>
+            <p className="delivery_txt_num"><Link to="+996505505400" >+996 505 505 400</Link></p>
+            <p className="delivery_txt_num"><Link to="+996505505400" >+996 505 505 400 </Link></p>
 
           </div>
 
