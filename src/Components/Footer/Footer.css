@@ -138,3 +138,10 @@ color: rgb(0, 89, 255);
 .footer_cards{
   justify-content: space-around;
 }
+.footer_navs li:hover{
+ color: #757575;
+}
+.footer_navs li{
+  transition: 0.3s;
+  font-weight: 500;
+}
