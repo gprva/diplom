@@ -29,7 +29,7 @@ const Contacts = () => {
           <Link to="https://wa.me/qr/5CCLEVSIBJ43F1" className="contact_phon">
             <FaWhatsapp className="Whatsapp" /> <span>+996 505 505 400</span>
           </Link>
-          <Link to="https://t.me/+996505505400" className="contact_phon flex">
+          <Link to="https://t.me/+996505505400" className="contact_phon">
             <FaTelegramPlane className="Whatsapp" />
             <span>+996 505 505 400</span>
           </Link>
