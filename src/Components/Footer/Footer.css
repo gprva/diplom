@@ -92,6 +92,8 @@ color: #757575;
 }
 .footer_navs{
   display: flex;
+  gap: 10px;
+  margin:19px 28px ;
 }
 .footer_share_card{
   border-top:3px solid rgb(85 85 85) ;
@@ -122,4 +124,8 @@ color: #757575;
 .link_card2:hover,
 .link_card:hover{
 color: rgb(0, 89, 255);
+}
+.Footer_menu{
+  font-size: 23px;
+  transition: 0.3s;
 }

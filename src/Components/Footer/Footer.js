@@ -48,13 +48,14 @@ const Footer = () => {
 
           <div className="footer_cards flex">
 
+            <div className="flex">
             <div className="footer_card">
               <h4 className="footer_card_tit">Gadgets</h4>
             </div>
 
             
             <div className="footer_nav ">
-            <nav className='Menu'>
+            <nav className='Footer_menu'>
               <ul className='footer_navs flex'>
                 <li>
                   <Link to="/">Home</Link>
@@ -71,6 +72,9 @@ const Footer = () => {
               </ul>
             </nav>
             </div>
+            </div>
+
+            
 
             <div className="footer_share">
               <div className="footer_shares flex">
