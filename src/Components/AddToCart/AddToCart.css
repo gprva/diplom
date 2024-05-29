@@ -1,5 +1,6 @@
 .AddToCart button {
-  width: 44%;
+  width: calc(100% - 20px);
+  max-width: 320px;
   padding: 1%;
   margin-right: 5px;
   background-color: #339;
@@ -24,4 +25,11 @@
   font-size: 24px;
   margin-bottom: 15px;
   color: #434343;
+}
+.AddToCart{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  max-width: 340px;
 }
