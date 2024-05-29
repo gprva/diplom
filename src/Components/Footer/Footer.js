@@ -94,7 +94,7 @@ const Footer = () => {
               </div>
 
               <div className="footer_share_card">
-              <CgMail className="link_card" />
+              <CgMail className="link_card_gm" />
               <Link to="mailto:gaparovalola08@gmail.com" className="footer_phon">
               <span>gaparovalola08@gmail.com</span>
               </Link>

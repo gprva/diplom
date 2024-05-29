@@ -103,8 +103,8 @@ color: #757575;
   padding: 5% 0;
 }
 .footer_share_card span{
-  padding-left: 10px;
   transition: 0.3s;
+  margin-top: 20px;
 }
 .footer_phon span:hover{
   color: rgb(151, 151, 151);
@@ -121,6 +121,7 @@ color: #757575;
   color: #b388dd;
   transition: 0.3s;
 }
+.link_card_gm:hover,
 .link_card2:hover,
 .link_card:hover{
 color: rgb(0, 89, 255);
@@ -128,4 +129,12 @@ color: rgb(0, 89, 255);
 .Footer_menu{
   font-size: 23px;
   transition: 0.3s;
+}
+.link_card_gm{
+  width: 35px;
+  height: 24px;
+  transition: 0.3s;
+}
+.footer_cards{
+  justify-content: space-around;
 }
