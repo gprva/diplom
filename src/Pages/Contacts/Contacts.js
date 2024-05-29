@@ -33,7 +33,7 @@ const Contacts = () => {
             <FaTelegramPlane className="Whatsapp" />
             <span>+996 505 505 400</span>
           </Link>
-          <Link to="https://t.me/+996505505400" className="contact_phon">
+          <Link to="https://www.instagram.com/gprva__?igsh=MW9ldWVnZXhvbGR1YQ==" className="contact_phon">
             <FaInstagram className="Whatsapp" /> <span>gprva_</span>
           </Link>
         </div>

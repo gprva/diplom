@@ -85,7 +85,7 @@ const Footer = () => {
 
                 <Link to="https://wa.me/qr/5CCLEVSIBJ43F1"><FaWhatsapp className="link_card2"/></Link>
 
-                <Link to="https://t.me/+996505505400">
+                <Link to="https://www.instagram.com/gprva__?igsh=MW9ldWVnZXhvbGR1YQ==">
                 <FaInstagram className="link_card2"/>
                 </Link>
                 
