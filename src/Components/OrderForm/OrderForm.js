@@ -4,7 +4,6 @@ import { ordersCollection } from "../../firebase";
 import { AppContext } from "../../App";
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import Button from "../Button/Button";
 
 export default function OrderForm({ active, setActive }) {
   const { cart, setCart, user } = useContext(AppContext);
@@ -52,7 +51,7 @@ export default function OrderForm({ active, setActive }) {
               <input type="text" name="address" placeholder="Country, city, street" required />
             </label>
             <div>
-              <Button className="btn order_btn" type="submit">Submit</Button>
+              <button className="btn order_btn" type="submit" >Submit</button>
               
             </div>
           </form>
