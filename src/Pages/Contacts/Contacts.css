@@ -24,6 +24,7 @@
     display: flex;
     gap: 1%;
 }
+a span,
 p span{
     font-weight: 500;
     font-size: 18px;
@@ -38,4 +39,47 @@ p span{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 2%;
+}
+a.contact_phon,
+.contact_phon_tit a{
+    transition: 0.3s;
+}
+a.contact_phon:hover,
+.contact_phon_tit a:hover{
+    color: #339;
+}
+
+@media screen and (max-width: 990px) {
+	.container{
+		max-width: 750px;
+	}
+    .contact_tit {
+        font-size: 59px;
+    }
+    .Whatsapp {
+        width: 7%;
+    }
+}
+@media screen and (max-width: 780px) {
+	.container{
+		max-width: 510px;
+	}
+}
+@media screen and (max-width: 540px) {
+	.container{
+		max-width: 420px;
+	}
+    .contact_tit {
+        font-size: 39px;
+        width: 171px;
+        padding: 30% 0;
+    }
+    .contact_phon_tit{
+        width: 176px;
+    }
+}
+@media screen and (max-width: 450px) {
+	.container{
+		max-width: 100%;
+	}
 }
