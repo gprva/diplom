@@ -33,6 +33,7 @@
   justify-content: space-between;
 }
 
+
 @media (max-width: 880px) {
   .CartList .cartItem {
     font-size: 23px;
