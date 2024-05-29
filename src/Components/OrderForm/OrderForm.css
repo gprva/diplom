@@ -36,7 +36,7 @@
   font-size: 20px;
   border: none;
   padding-left: 10px;
-  border: 1px solid rgba(0,0,0,0.3);
+  border: 2px solid rgb(0 0 0 / 30%);
 }
 .popup form label{
   margin-bottom: 10px;
@@ -45,4 +45,9 @@
   margin-top: 15px;
   display: block;
   text-align: center;
+  
+}
+.popup .Btn:hover{
+  background: #339;
+  border: 2px solid #339;
 }
