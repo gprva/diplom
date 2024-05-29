@@ -58,17 +58,19 @@ font-weight: 600;
     }
 }
 @media screen and (max-width: 540px) {
-	.container{
-		max-width: 420px;
-	}
-    .delivery_left {
-        width: 64%;
-    }
-    .delivery_tit {
-        width: 160px;
-    }
     .delivery_txt_num {
         font-size: 9px;
+    }
+    .delivery_tit{
+        width: 100%;
+    }
+    .delivery_card{
+        margin-bottom: 20px;
+        padding-right: 10px;
+        width: 50%;
+    }
+    .delivery_card_txt{
+        font-size: 15px;
     }
     
 }
