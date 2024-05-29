@@ -69,7 +69,7 @@
 
 footer{
   background: #26266b;
-  padding: 100px;
+  padding: 60px 0 0;
   color: white;
 }
 .footer_card_tit{
@@ -143,4 +143,29 @@ color: rgb(0, 89, 255);
 .footer_navs li{
   transition: 0.3s;
   font-weight: 500;
+}
+
+@media screen and (max-width: 990px) {
+	.container{
+		max-width: 750px;
+	}
+  
+}
+@media screen and (max-width: 780px) {
+	.container{
+		max-width: 510px;
+	}
+  .footer_navs{
+    margin: auto;
+  }
+}
+@media screen and (max-width: 540px) {
+	.container{
+		max-width: 420px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.container{
+		max-width: 100%;
+	}
 }
