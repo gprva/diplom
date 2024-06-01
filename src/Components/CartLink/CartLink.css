@@ -37,13 +37,13 @@
   }
 
   .delete_icon{
-    color: rgb(143, 138, 138);
+    color: #339;
     float: right;
     cursor: pointer;
     position: relative;
     transition: color, transform 500ms ease;
   }
   .delete_icon:hover{
-    color: rgb(59, 41, 97);
-    transform: scale(1.2);
+    color: rgb(49, 7, 139);
+    transform: scale(1.3);
   }
