@@ -52,11 +52,11 @@
 }
 
 .total_tit{
-  text-align: end;
-  margin-right: 12%;
-  font-family: "Poetsen One", sans-serif;
-  font-size: 25px;
-  color: #232324;
+    margin-left: 5%;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 25px;
+    color: #232324;
+    margin-bottom: 1%;
 }
 
 @media (max-width: 880px) {
