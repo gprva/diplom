@@ -80,7 +80,7 @@ export default function CartList() {
       {output}
 
       <div className="CartTotal">
-        <h2>Total:{total} $</h2>
+        <h2 className="total_tit">Total:  {total} $</h2>
       </div>
       
     </div>
