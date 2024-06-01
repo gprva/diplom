@@ -24,6 +24,7 @@ export default function CategoryList() {
       <ul className="dropdownContent">{output}
       <AddCategory />
       </ul>
+      
     </div>
   )
 }

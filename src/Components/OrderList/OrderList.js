@@ -34,7 +34,7 @@ export default function OrderList() {
         <li>Name: <span>{order.name}</span></li>
         <li>Phone: <span>{order.phone}</span></li>
         <li>Address: <span>{order.address}</span></li>
-        <li>Orders:
+        <li >Orders:
           <ul>
             {cartOutput}
           </ul>
