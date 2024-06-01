@@ -49,9 +49,18 @@ export default function CartList() {
       </div>
     ));
 
+
+    const total = products
+    .filter(product => productIds.includes(product.id))
+    .reduce((sum, product) => sum + (cart[product.id] * product.price), 0);
+
   return (
     <div className="CartList">
       {output}
+
+      <div className="CartTotal">
+        <h2>Total:{total} $</h2>
+      </div>
       
     </div>
   )
