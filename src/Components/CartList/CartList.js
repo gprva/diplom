@@ -34,11 +34,32 @@ export default function CartList() {
         <Link to={"/products/" + product.slug}>{product.name}</Link>
 
         <div className="inputs">
-        <input
-          type="number"
-          value={cart[product.name]}
-          min={1}
-          onChange={(event) => onQuantityChange(product, +event.target.value)} />
+
+        <div className="shadowis flex">
+            <button
+              onClick={() => onQuantityChange(product, cart[product.id] - 1)}
+              className="bg-[#f92e9e] text-white w-8 flex items-center justify-center cursor-pointer rounded-l-md outline-none"
+            >
+              -
+            </button>
+            <input
+              className=""
+              type="text"
+              value={cart[product.id]}
+              min={1}
+              onChange={(event) =>
+                onQuantityChange(product, parseInt(event.target.value, 10))
+              }
+            />
+            <button
+              onClick={() => onQuantityChange(product, cart[product.id] + 1)}
+              className="bg-[#f92e9e] text-white w-8 flex items-center justify-center cursor-pointer rounded-r-md outline-none"
+            >
+              +
+            </button>
+          </div>
+
+
         <span>${(cart[product.id] * product.price).toFixed(2)}</span>
         <button className="removeButton" onClick={() => onItemRemove(product)}>
         <MdDelete className="delete_icon"/> 
