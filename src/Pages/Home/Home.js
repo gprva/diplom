@@ -8,8 +8,17 @@ import slideImg from "../../img/iphoneNew1.avif"
 import slideImg2 from "../../img/iphoneNew2.avif"
 import slideImg3 from "../../img/iphoneNew3.avif"
 import { Link } from "react-router-dom";
+import React, { useState } from 'react';
 
 function Home() {
+
+   /*FAQ */
+ 
+   const [activeIndex, setActiveIndex] = useState(null);
+  
+   const handleAccordionClick = (index) => {
+     setActiveIndex(activeIndex === index ? null : index);
+   };
   
 
 
@@ -149,6 +158,34 @@ function Home() {
       </div>
 
       </div>
+    </section>
+
+    <section>
+      <h2 className="accordion_tit">Got questions?</h2>
+      <div className="about-us-accordion">
+
+
+        <div className="accordion">
+          {[
+            { question: 'What products do you offer?', answer: 'In our jewelry store, we offer a wide range of unique and exquisite pieces that reflect high levels of craftsmanship and individual style. Our collection includes diverse adornments crafted using the finest materials, including precious and semi-precious gemstones, gold, silver, and platinum. We provide exclusive rings, necklaces, bracelets, earrings, and more, each piece of which is a unique work of art. Our designers carefully track the latest trends in the world of fashion and jewelry art to offer you only the most stylish and relevant accessories.' },
+            { question: 'How can I contact customer service?', answer: 'In our jewelry store, we offer a wide range of unique and exquisite pieces that reflect high levels of craftsmanship and individual style. Our collection includes diverse adornments crafted using the finest materials, including precious and semi-precious gemstones, gold, silver, and platinum. We provide exclusive rings, necklaces, bracelets, earrings, and more, each piece of which is a unique work of art. Our designers carefully track the latest trends in the world of fashion and jewelry art to offer you only the most stylish and relevant accessories.' },
+            { question: 'Do you offer international shipping?', answer: 'In our jewelry store, we offer a wide range of unique and exquisite pieces that reflect high levels of craftsmanship and individual style. Our collection includes diverse adornments crafted using the finest materials, including precious and semi-precious gemstones, gold, silver, and platinum. We provide exclusive rings, necklaces, bracelets, earrings, and more, each piece of which is a unique work of art. Our designers carefully track the latest trends in the world of fashion and jewelry art to offer you only the most stylish and relevant accessories.' },
+          ].map((item, index) => (
+            <div key={index} className="accordion-item">
+              <button
+                className={`accordion-button ${activeIndex === index ? 'active' : ''}`}
+                onClick={() => handleAccordionClick(index)}
+              >
+                {item.question}
+              </button>
+              <div className={`accordion-content ${activeIndex === index ? 'active' : ''}`}>
+                <p className="accordion_txt">{item.answer}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
     </section>
       
     </>

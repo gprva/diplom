@@ -149,7 +149,7 @@ figure.effect-text-three:hover p {
 .home_tit{
     margin-bottom: 50px;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
 }
@@ -439,3 +439,67 @@ figure.effect-text-four:hover p {
 	width: 301px;
     height: 278px;
 }
+
+/*accordion*/
+.accordion_tit{
+	margin-bottom: 50px;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Poetsen One";
+    font-weight: 400;
+}
+.about-us-accordion,
+  .about-us-cards {
+    margin-top: 20px;
+  }
+  
+  .about-us-accordion h2,
+  .about-us-cards h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .accordion-item {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-button {
+	font-family: "Poetsen One", sans-serif;
+	background: rgb(105, 105, 189);
+    width: 100%;
+    padding: 20px;
+    border: none;
+	font-weight: 400;
+    border-radius: 8px;
+    font-size: 23px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-button:hover {
+    background-color: #339;
+  }
+  
+  .accordion-button.active {
+    background-color: #339;
+    color: #fff;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #c0c0ff;
+    margin-top: 10px;
+  }
+  
+  .accordion-content.active {
+    display: block;
+  }
+  .accordion_txt{
+	font-size: 20px;
+	font-family: sans-serif;
+  }
+  /*accordion*/
